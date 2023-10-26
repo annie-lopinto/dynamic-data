@@ -1,0 +1,74 @@
+{
+    "title":"Welcome to the nation's capital, Washington D.C.!",
+    "slideshow": [
+        "/img/slides/slide-1.jpg",
+        "/img/slides/slide-2.jpg",
+        "/img/slides/slide-3.jpg"
+    ], 
+    "services": [
+        {
+            "title":"Transportation",
+            "intro":"Getting around is a breeze with our comprehensive transportation guide. Discover the best ways to navigate your destination, whether it's by land, sea, or air. From efficient public transportation systems and scenic road trips to adventurous train rides and hassle-free airport tips, we've got you covered. Plan your journey with ease and make the most of your travel experience with our transportation insights.",
+            "lists":[
+                "Airport Taxi Services",
+                "Rental Car Services",
+                "Bus Services"
+            ],
+            "image":"img/homepage/transportation.jpg"
+        }, 
+        {
+            "title":"Washington DC Tour Options",
+            "intro":"Embark on unforgettable adventures with our curated tour experiences. Dive into the heart of your destination as expert guides lead you through its hidden gems and iconic landmarks. Whether you're seeking cultural immersion, outdoor thrills, or historical exploration, our diverse selection of tours ensures there's something for every traveler. Join us in discovering the world's wonders, one tour at a time, and make your journey truly remarkable.",
+            "lists":[
+                "Walking Tours",
+                "Bus Tours",
+                "Self Guided Tours"
+            ],
+            "image":"img/homepage/tours.jpg"
+        }
+    ],
+    "packages":[
+        {
+            "title":"City Tour",
+            "image":"/img/homepage/all-sights.jpg",
+            "text":"Discover Washington, D.C.'s iconic landmarks and rich history on our city tour. Explore the Lincoln Memorial, the White House, and more as you delve into the heart of the nation's capital. Join us for a captivating journey through D.C.'s heritage.",
+            "price":"1500",
+            "duration":"2 Days"
+        },
+        {
+            "title":"DC in a Weekend",
+            "image":"/img/homepage/weekend.jpg",
+            "text":"Elevate your weekends with our curated getaways. From cozy escapes to thrilling adventures, our weekend tours pack big experiences into your short break. Recharge and explore with us for unforgettable weekends.",
+            "price":"500",
+            "duration":"3 Days"
+        },
+        {
+            "title":"DC at Night",
+            "image":"/img/homepage/dc-at-night.jpg",
+            "text":"Discover the allure of Washington, D.C. at night. Explore iconic landmarks bathed in the shimmering city lights, from the Lincoln Memorial to the Capitol Building. Join us for an unforgettable evening tour of the nation's capital.",
+            "price":"3300",
+            "duration":"1 Day"
+        },
+        {
+            "title":"Smithsonian Walk Through",
+            "image":"/img/homepage/smithsonian.jpg",
+            "text":"Immerse yourself in a world of knowledge and wonder at the Smithsonian. With a diverse range of museums and exhibitions, the Smithsonian offers a captivating journey through art, history, science, and culture. Join us for an enriching experience at one of the world's most renowned cultural institutions.",
+            "price":"100",
+            "duration":"1 Day"
+        },
+        {
+            "title":"History of the Capitol Building",
+            "image":"/img/homepage/capitol-building.jpg",
+            "text":"Step back in time into the rich history of the United States Capitol Building. Discover the stories, architecture, and pivotal moments that have shaped the American democracy on this Capitol Building history tour.",
+            "price":"300",
+            "duration":"2 Days"
+        },
+        {
+            "title":"The Washington Monument",
+            "image":"/img/homepage/washington-monument.jpg",
+            "text":"Ascend the iconic Washington Monument and take in breathtaking panoramic views of the nation's capital. Join us on this guided tour to discover the history and significance of this towering tribute to George Washington, a symbol of American pride and unity.",
+            "price":"100",
+            "duration":"1 Day"
+        }
+    ]
+}

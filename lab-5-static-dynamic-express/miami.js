@@ -1,14 +1,20 @@
 const express = require('express');
 
+//add the new engine
+const expressHandlebars = require('express-handlebars')
+
 const app = express() 
 
 //configure our express app to use handlebars 
-app.engine('handlebars', expressHandlebars({
+app.engine('handlebars', expressHandlebars.engine({
     defaultLayout:'main',
 }))
 
 app.set('view engine','handlebars')
 //ends handlebar configuration
+
+//Static files or folders are specified before any route - this is why we separate views from layouts
+app.use(express.static(__dirname + "/public")) //dirname = directory name
 
 const port = process.env.port || 3000
 //Routes go before 404 and 500
@@ -17,14 +23,16 @@ app.get('/', (req,res)=>{
 })
 
 app.get('/about', (req,res)=>{
-    res.render('about')
+    res.render('about', { 
+        tite:"About Miami", 
+        pageTitle: "About Miami Travel",
+        image: "miami1.jpg",
+        description: "Miami is a beautiful city"
+    })
 })
-
-//This generate an error because the parameter names don't match 
-//res should be response -- they must match 
-app.get('/nightlife', (request,respond)=>{
-    res.type('text/plain')
-    res.send('Miami at Night')
+ 
+app.get('/nightlife', (req,res)=>{
+    res.render('nightlife')
 })
 
 //Error handling -> app.use() basic express route
