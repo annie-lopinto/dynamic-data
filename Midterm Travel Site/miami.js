@@ -25,22 +25,22 @@ app.get('/',(req,res)=>{
     res.render('page',{ data, gallery })
 })
 
-app.get('/zoo',(req,res)=>{
-    var data = require('./data/zoo-data.json')
+app.get('/capitol',(req,res)=>{
+    var data = require('./data/capitol-data.json')
     res.render('page',{ data,gallery })
 })
 
-app.get('/beach',(req,res)=>{
-    var data = require('./data/beach-data.json')
+app.get('/smithsonian',(req,res)=>{
+    var data = require('./data/smithsonian-data.json')
     res.render('page',{ data,gallery })
 })
 
-app.get('/southpoint',(req,res)=>{
-    var data = require('./data/southpoint-data.json')
+app.get('/washington',(req,res)=>{
+    var data = require('./data/washington-data.json')
     res.render('page',{ data,gallery })
 })
-app.get('/hardrock',(req,res)=>{
-    var data = require('./data/hardrock-data.json')
+app.get('/lincoln',(req,res)=>{
+    var data = require('./data/lincoln-data.json')
     res.render('page',{ data,gallery })
 })
 //This generates an error because the parameter names don't match

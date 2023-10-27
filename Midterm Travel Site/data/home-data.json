@@ -1,5 +1,8 @@
 {
     "title":"Welcome to the nation's capital, Washington D.C.!",
+    "description":[
+        "Washington, D.C., the capital of the United States, is a city of immense historical, political, and cultural significance. Nestled along the eastern seaboard of the United States, it is a place where history is etched into the very fabric of the city. The city's layout was designed by Pierre Charles L'Enfant, featuring a grid pattern of wide avenues and numerous iconic landmarks. The city's most prominent feature is the National Mall, a sprawling, tree-lined expanse that is home to world-renowned museums, monuments, and memorials. The Capitol Building, where the U.S. Congress convenes, anchors one end, and the Washington Monument, a towering obelisk dedicated to George Washington, stands proudly at the other. Throughout the city, visitors encounter historic sites such as the White House, the official residence of the President, and the Lincoln Memorial, which honors the 16th President, Abraham Lincoln. Washington, D.C. is also a center of learning, hosting esteemed universities, research institutions, and the Library of Congress, the world's largest library. Beyond its political and historical significance, D.C. is a vibrant and diverse city with distinct neighborhoods, each offering its own unique charm and character. Georgetown, Dupont Circle, and Adams Morgan are popular areas for shopping, dining, and nightlife. The city's culinary scene reflects its diverse population, offering a range of international cuisines. Cultural institutions like the Smithsonian museums, the National Gallery of Art, and the Kennedy Center for the Performing Arts provide endless opportunities for artistic and intellectual exploration. D.C.'s annual events, including the National Cherry Blossom Festival and Fourth of July celebrations, draw visitors from around the world. Washington, D.C. is a city of power, history, and diplomacy, but it is also a city of vibrant communities, artistic expression, and diverse experiences. It encapsulates the essence of the United States, making it a compelling destination for travelers and a dynamic hub for those engaged in the country's political, cultural, and intellectual life."
+    ],
     "slideshow": [
         "/img/slides/slide-1.jpg",
         "/img/slides/slide-2.jpg",
@@ -10,9 +13,10 @@
             "title":"Transportation",
             "intro":"Getting around is a breeze with our comprehensive transportation guide. Discover the best ways to navigate your destination, whether it's by land, sea, or air. From efficient public transportation systems and scenic road trips to adventurous train rides and hassle-free airport tips, we've got you covered. Plan your journey with ease and make the most of your travel experience with our transportation insights.",
             "lists":[
-                "Airport Taxi Services",
-                "Rental Car Services",
-                "Bus Services"
+                "Washington Metropolitan Area Transit Authority (WMATA): WMATA operates the Metrorail and Metrobus systems, providing a comprehensive public transportation network in the D.C. metropolitan area. Metrorail serves D.C., Maryland, and Virginia, while Metrobus offers bus service throughout the region.",
+                "Metrobus: Metrobus is a vital component of WMATA, providing bus service throughout the D.C. metropolitan area. It offers a cost-effective and flexible way to travel within the city and surrounding suburbs.",
+                "Capital Bikeshare: Capital Bikeshare is a bike-sharing program in D.C. that allows users to rent bicycles for short trips. It's a convenient and eco-friendly way to explore the city, especially for short distances.",
+                "DC Circulator: The DC Circulator is a bus system designed for easy navigation of popular areas in D.C., including the National Mall, Georgetown, and downtown neighborhoods. It offers a low fare and frequent service."
             ],
             "image":"img/homepage/transportation.jpg"
         }, 
@@ -20,9 +24,10 @@
             "title":"Washington DC Tour Options",
             "intro":"Embark on unforgettable adventures with our curated tour experiences. Dive into the heart of your destination as expert guides lead you through its hidden gems and iconic landmarks. Whether you're seeking cultural immersion, outdoor thrills, or historical exploration, our diverse selection of tours ensures there's something for every traveler. Join us in discovering the world's wonders, one tour at a time, and make your journey truly remarkable.",
             "lists":[
-                "Walking Tours",
-                "Bus Tours",
-                "Self Guided Tours"
+                "Hop-On, Hop-Off Bus Tours: These popular tours provide a convenient way to explore the city's major sites. Visitors can board and disembark at various stops to see landmarks like the National Mall, Lincoln Memorial, and the U.S. Capitol.",
+                "Bike Tours: Bike tours are a fun and active way to see the city. Many tour operators offer guided bike tours, allowing you to pedal through the streets and visit notable sites.",
+                "Museum Tours: Many D.C. museums, including the Smithsonian museums, offer guided tours that provide a deeper understanding of their collections and the stories they tell.",
+                "Custom and Private Tours: These tours can be tailored to your interests, schedule, and group size. You can work with tour operators to create a personalized itinerary."
             ],
             "image":"img/homepage/tours.jpg"
         }
@@ -32,43 +37,43 @@
             "title":"City Tour",
             "image":"/img/homepage/all-sights.jpg",
             "text":"Discover Washington, D.C.'s iconic landmarks and rich history on our city tour. Explore the Lincoln Memorial, the White House, and more as you delve into the heart of the nation's capital. Join us for a captivating journey through D.C.'s heritage.",
-            "price":"1500",
-            "duration":"2 Days"
+            "price":"500",
+            "duration":"4 Hours"
         },
         {
             "title":"DC in a Weekend",
             "image":"/img/homepage/weekend.jpg",
             "text":"Elevate your weekends with our curated getaways. From cozy escapes to thrilling adventures, our weekend tours pack big experiences into your short break. Recharge and explore with us for unforgettable weekends.",
-            "price":"500",
+            "price":"2300",
             "duration":"3 Days"
         },
         {
             "title":"DC at Night",
             "image":"/img/homepage/dc-at-night.jpg",
             "text":"Discover the allure of Washington, D.C. at night. Explore iconic landmarks bathed in the shimmering city lights, from the Lincoln Memorial to the Capitol Building. Join us for an unforgettable evening tour of the nation's capital.",
-            "price":"3300",
-            "duration":"1 Day"
+            "price":"400",
+            "duration":"4 Hours"
         },
         {
-            "title":"Smithsonian Walk Through",
-            "image":"/img/homepage/smithsonian.jpg",
-            "text":"Immerse yourself in a world of knowledge and wonder at the Smithsonian. With a diverse range of museums and exhibitions, the Smithsonian offers a captivating journey through art, history, science, and culture. Join us for an enriching experience at one of the world's most renowned cultural institutions.",
-            "price":"100",
-            "duration":"1 Day"
-        },
-        {
-            "title":"History of the Capitol Building",
-            "image":"/img/homepage/capitol-building.jpg",
-            "text":"Step back in time into the rich history of the United States Capitol Building. Discover the stories, architecture, and pivotal moments that have shaped the American democracy on this Capitol Building history tour.",
+            "title":"Cherry Blossom Festival Tour Package",
+            "image":"/img/homepage/cherryblossom.jpg",
+            "text":"Timed to coincide with the annual National Cherry Blossom Festival in spring, this package includes visits to the Tidal Basin, where cherry blossoms are in full bloom. Enjoy the beauty of the blossoms while exploring nearby monuments and attractions.",
             "price":"300",
-            "duration":"2 Days"
+            "duration":"3 Hours"
         },
         {
-            "title":"The Washington Monument",
-            "image":"/img/homepage/washington-monument.jpg",
-            "text":"Ascend the iconic Washington Monument and take in breathtaking panoramic views of the nation's capital. Join us on this guided tour to discover the history and significance of this towering tribute to George Washington, a symbol of American pride and unity.",
-            "price":"100",
-            "duration":"1 Day"
+            "title":"Museum Lovers' Tour",
+            "image":"/img/homepage/museum.jpg",
+            "text":"Perfect for art and history enthusiasts, this package combines visits to the Smithsonian museums and the National Gallery of Art. Explore world-class collections, exhibits, and galleries, with expert guides providing context and information about the art and artifacts on display.",
+            "price":"800",
+            "duration":"6 Hours"
+        },
+        {
+            "title":"Cultural and Arts Tour Package",
+            "image":"/img/homepage/arts.jpg",
+            "text":" Delve into the cultural side of D.C. with visits to theaters, galleries, and performance venues. This package provides access to cultural events and artistic expressions in the city, allowing you to appreciate the vibrant arts scene.",
+            "price":"200",
+            "duration":"3 Hours"
         }
     ]
 }

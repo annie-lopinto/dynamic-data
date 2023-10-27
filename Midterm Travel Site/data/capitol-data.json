@@ -1,0 +1,80 @@
+{
+    "title":"The Capitol Building",
+    "description":[
+        "The United States Capitol, situated in Washington, D.C., is not only the legislative hub of the nation but also an enduring symbol of American democracy. This neoclassical architectural marvel with its grand white marble façade, majestic dome, and iconic columns stands as a testament to the enduring values of liberty and democratic governance. Its storied history intertwines with the growth and evolution of the United States, bearing witness to pivotal moments from presidential inaugurations to the passage of landmark legislation. The Capitol embodies the very essence of representative government, freedom, and civic participation, underscored by the statue of Freedom atop its dome. Inside, the Capitol's resplendent halls, chambers, and corridors house priceless art, statuary, and historical artifacts, with the Rotunda, Statuary Hall, and chambers of the House of Representatives and the Senate as notable highlights. For visitors, the Capitol offers a range of tours and programs, with the Visitor Center serving as the main entry point, providing information and services to enhance the visit. Beyond its legislative role, the Capitol is also a cultural institution, frequently hosting exhibitions, events, and performances that celebrate American art, history, and diverse cultures. As one of the most recognizable landmarks in the United States, the Capitol is not just a government building; it is where history is made, and where citizens can actively participate in the democratic process, making it a must-visit destination for those intrigued by the heart of American government and its rich history."
+    ],
+    "slideshow":[
+        "/img/slides/slide-4.jpg",
+        "/img/slides/slide-5.jpg",
+        "/img/slides/slide-6.jpg"
+    ],
+    "services":[
+        {
+            "title":"The Visitor Center",
+            "intro":"The Visitor Center at the United States Capitol provides essential services and information to enhance the experience of visitors to this historic and significant site. Here are some common features and examples of what a Visitor Center at the Capitol building may offer:",
+            "lists":[
+                "Information Desk: Staffed information desks or kiosks to provide maps, brochures, and guidance to visitors.",
+                "Tourist Information: Information about the history, architecture, and legislative processes of the U.S. Capitol, along with recommendations for nearby attractions and services.",
+                "Ticket Sales: Sale of tickets for guided tours of the Capitol, allowing visitors to explore the interior of the building.",
+                "Gift Shops: A gift shop offering a range of souvenirs, books, and items related to the Capitol and American history."
+            ],
+            "image":"/img/capitolpage/history.jpg"
+        },
+        {
+            "title":"The Capitol Building Special Exhibitions",
+            "intro":"The United States Capitol, while primarily serving as the seat of the U.S. Congress, occasionally hosts exhibitions that provide insight into the history, culture, and legislative process of the United States. These exhibitions are often temporary and may vary depending on the time of year and specific events or themes. Here's an explanation and examples of the types of exhibitions you might find at the Capitol:",
+            "lists":[
+                "Rotating Art Exhibitions: The Capitol may feature rotating art exhibitions that showcase the work of American artists. These exhibitions can include paintings, sculptures, and other forms of visual art.",
+                "Thematic Exhibitions: These exhibitions revolve around specific themes or events in American history, such as the Civil Rights Movement, the suffrage movement, or the founding of the nation.",
+                "Interactive Exhibits: Hands-on, interactive exhibits that engage visitors in learning about the legislative process, the branches of government, and civic engagement.",
+                "Collaborative Exhibitions: Exhibitions created in collaboration with other institutions, museums, or cultural organizations, which often bring unique perspectives and artifacts."
+            ],
+            "image":"/img/capitolpage/exhibition.jpg"
+        }
+        
+    ],
+    "packages":[
+        {
+            "title":"History of the Capitol Building",
+            "image":"/img/capitolpage/capitol-building.jpg",
+            "text":"Step back in time into the rich history of the United States Capitol Building. Discover the stories, architecture, and pivotal moments that have shaped the American democracy on this Capitol Building history tour.",
+            "price":"600",
+            "duration":"2 Hours"
+        },
+        {
+            "title":"Emancipation Hall Tour",
+            "image":"/img/capitolpage/emancipation.jpg",
+            "text":"Immerse yourself in the symbolism of freedom with our Emancipation Hall Tour. Discover the towering Statue of Freedom that graces the Capitol's dome, a powerful representation of the nation's ideals. Uncover the story of this iconic figure and its role in our national history.",
+            "price":"100",
+            "duration":"45 Minutes"
+        },
+        {
+            "title":"Statuary Hall Tour",
+            "image":"/img/capitolpage/statuary.jpg",
+            "text":"Step into the hallowed Statuary Hall and journey through history. Our Statuary Hall Tour delves into the significance of the statues that adorn this historic room. Each statue represents the legacy of a prominent figure from one of our states, telling a unique story of American achievement.",
+            "price":"100",
+            "duration":"45 Minutes"
+        },
+        {
+            "title":"Art and Architecture Tour",
+            "image":"/img/capitolpage/art.jpg",
+            "text":"Delve into the artistic and architectural wonders of the Capitol with our Art and Architecture Tour. Explore the timeless masterpieces that grace our halls, from the Rotunda's majestic paintings to the breathtaking frescoes of the dome. Immerse yourself in the beauty and history of our iconic building.",
+            "price":"100",
+            "duration":"2 Hours"
+        },
+        {
+            "title":"Congress and the Civil Rights Movement Tour",
+            "image":"/img/capitolpage/congress.jpg",
+            "text":"Experience the pivotal role of the U.S. Congress in the Civil Rights Movement through our insightful tour. Discover the legislative journey toward equality, featuring key figures and historic legislation that shaped a nation and the path toward civil rights.",
+            "price":"200",
+            "duration":"2 Hours"
+        },
+        {
+            "title":"Historical Reenactment Tour",
+            "image":"/img/capitolpage/reenactment.jpg",
+            "text":"Step back in time with our Historical Reenactment Tours, where history comes alive. Witness significant events and moments in American history, vividly reenacted within the walls of the Capitol, offering a unique and immersive experience.",
+            "price":"500",
+            "duration":"3 Hours"
+        }
+    ]
+}
