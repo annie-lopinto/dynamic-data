@@ -1,0 +1,58 @@
+<div class="section-divider" id="about"></div>
+<h1 class="primary-color-light roboto-medium">{{data.title}}</h1>
+<p>{{data.description}}</p>
+
+{{#if data.packages}}
+<div class="section-divider" id="packages"></div>
+<h2>New Arrivals</h2>
+<div class="owl-theme owl-carousel owl-packages">
+{{#each data.packages}}
+  <div class="card">
+   {{#if this.image}} 
+  <img src="{{this.image}}" class="card-img-top" alt="...">
+  {{/if}}
+  <div class="card-body">
+    <h5 class="card-title">{{this.title}}</h5>
+    <p class="card-text">{{this.text}}</p>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">${{this.price}}</li>
+  </ul>
+</div>
+{{/each}}
+</div>
+{{/if}}
+
+{{#if data.packages}}
+<div class="section-divider" id="packages"></div>
+<h2>Products</h2>
+<a href="{{this.url}}">
+<div class="owl-theme owl-carousel owl-packages">
+{{#each data.packages}}
+  <div class="card">
+   {{#if this.image}} 
+  <img src="{{this.image}}" class="card-img-top" alt="...">
+  {{/if}}
+  <div class="card-body">
+    <h5 class="card-title">{{this.title}}</h5>
+  </div>
+</div>
+{{/each}}
+</div>
+</a>
+{{/if}}
+
+<h2>About Us</h2>
+<p>
+  Lorem
+</p>
+
+
+
+<footer class="footer-color-bg secondary-color-light">
+  <br>
+  <br>
+  Copyright 2023 - Annie LoPinto
+  <br>
+  <br>
+</footer>
