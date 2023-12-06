@@ -2,44 +2,47 @@ let eList = require('../data/orders.json')
 
 const fs = require("fs")
 
-exports.product = (req,res) => {
-    res.render('product', { csrf : 'supersecret'  })
+exports.shoppingCart = (req,res) => {
+    res.render('shoppingcart', { csrf : 'supersecret'  })
 }
-exports.newsletterSignupList = (req,res) => {
+exports.checkOut = (req,res) => {
+    res.render('checkout', { csrf : 'supersecret'  })
+}
+exports.orderList = (req,res) => {
     console.log(eList)
     eList = require('../data/orders.json')
-    res.render('userspage', { "users": eList.users  })
+    res.render('orderlist', { "orders": eList.users  })
 }
 
-exports.newsletterUser = (req,res) => {
+exports.orderDetails = (req,res) => {
      //eList = require('../data/emails.json')
      console.log(eList)
-    var userDetails = eList.users.filter((user)=>{ 
-        return user.email == req.params.email
+    var userDetails = eList.orders.filter((user)=>{ 
+        return user.order == req.params.order
      })
 
-     console.log(userDetails)
-    res.render('userdetails',{"users": userDetails})
+     console.log(orderDetails)
+    res.render('orderdetails',{"orders": orderDetails})
 }
 
-exports.newsletterUserDelete = (req,res) => {
+exports.orderDelete = (req,res) => {
     var newList = {"users":[]}
     newList.users = eList.users.filter((user)=>{ 
-        return user.email != req.params.email
+        return user.order != req.params.order
      })
-     console.log("deleting: " + req.params.email)
+     console.log("deleting: " + req.params.order)
 
      var json = JSON.stringify(newList)
      console.log(json)
 
-     fs.writeFile('./data/emails.json',json,'utf8',()=>{})
+     fs.writeFile('./data/orders.json',json,'utf8',()=>{})
 
-     eList = require('../data/emails.json')
-     res.send('<a href="/newsletter/list">Go Back</a>')
+     eList = require('../data/orders.json')
+     res.send('<a href="/order/list">Go Back</a>')
      //res.redirect(303,'/newsletter/list')
 }
 
-exports.newsletterSignupProcess = (req,res) => {
+exports.checkoutProcess = (req,res) => {
 
     //Then we do something here
     console.log(req.body)
@@ -65,7 +68,7 @@ exports.newsletterSignupProcess = (req,res) => {
     fs.writeFileSync('./data/orders.json',json,'utf8',()=>{})
 
    
-    res.redirect(303,'/newsletter/thankyou')
+    res.redirect(303,'/order/thankyou')
     //res.send("you posted something to /process " + req.body.email)
              
 }

@@ -2,11 +2,12 @@
 <h1 class="primary-color-light roboto-medium">{{data.title}}</h1>
 <p>{{data.description}}</p>
 
-{{#if data.packages}}
+{{#if data.arrivals}}
 <div class="section-divider" id="packages"></div>
 <h2>New Arrivals</h2>
+<a href="{{this.url}}">
 <div class="owl-theme owl-carousel owl-packages">
-{{#each data.packages}}
+{{#each data.arrivals}}
   <div class="card">
    {{#if this.image}} 
   <img src="{{this.image}}" class="card-img-top" alt="...">
@@ -21,14 +22,15 @@
 </div>
 {{/each}}
 </div>
+</a>
 {{/if}}
 
-{{#if data.packages}}
+{{#if data.categories}}
 <div class="section-divider" id="packages"></div>
 <h2>Products</h2>
 <a href="{{this.url}}">
 <div class="owl-theme owl-carousel owl-packages">
-{{#each data.packages}}
+{{#each data.categories}}
   <div class="card">
    {{#if this.image}} 
   <img src="{{this.image}}" class="card-img-top" alt="...">
@@ -42,10 +44,12 @@
 </a>
 {{/if}}
 
+<section id="aboutus">
 <h2>About Us</h2>
 <p>
   Lorem
 </p>
+</section>
 
 
 

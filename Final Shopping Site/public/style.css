@@ -16,7 +16,7 @@ body {
 }
 
 .primary-color {
-    color: #95D2EC;
+    color: #FFFFFF;
 }
 .primary-color-light {
    color: #000000;
@@ -28,10 +28,10 @@ body {
   }
 
 .primary-color-bg {
-    background-color: #95D2EC;
+    background-color: #FFFFFF;
 }
 .primary-color-light-bg {
-   background-color: #95D2EC;
+   background-color: #FFFFFF;
 }
 .secondary-color, nav .secondary-color-light:hover {
     color: #FF4242,;

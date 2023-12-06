@@ -7,30 +7,6 @@
         "/img/slides/slide-1.jpg",
         "/img/slides/slide-2.jpg",
         "/img/slides/slide-3.jpg"
-    ], 
-    "services": [
-        {
-            "title":"Transportation",
-            "intro":"Getting around is a breeze with our comprehensive transportation guide. Discover the best ways to navigate your destination, whether it's by land, sea, or air. From efficient public transportation systems and scenic road trips to adventurous train rides and hassle-free airport tips, we've got you covered. Plan your journey with ease and make the most of your travel experience with our transportation insights.",
-            "lists":[
-                "Washington Metropolitan Area Transit Authority (WMATA): WMATA operates the Metrorail and Metrobus systems, providing a comprehensive public transportation network in the D.C. metropolitan area. Metrorail serves D.C., Maryland, and Virginia, while Metrobus offers bus service throughout the region.",
-                "Metrobus: Metrobus is a vital component of WMATA, providing bus service throughout the D.C. metropolitan area. It offers a cost-effective and flexible way to travel within the city and surrounding suburbs.",
-                "Capital Bikeshare: Capital Bikeshare is a bike-sharing program in D.C. that allows users to rent bicycles for short trips. It's a convenient and eco-friendly way to explore the city, especially for short distances.",
-                "DC Circulator: The DC Circulator is a bus system designed for easy navigation of popular areas in D.C., including the National Mall, Georgetown, and downtown neighborhoods. It offers a low fare and frequent service."
-            ],
-            "image":"img/homepage/transportation.jpg"
-        }, 
-        {
-            "title":"Washington DC Tour Options",
-            "intro":"Embark on unforgettable adventures with our curated tour experiences. Dive into the heart of your destination as expert guides lead you through its hidden gems and iconic landmarks. Whether you're seeking cultural immersion, outdoor thrills, or historical exploration, our diverse selection of tours ensures there's something for every traveler. Join us in discovering the world's wonders, one tour at a time, and make your journey truly remarkable.",
-            "lists":[
-                "Hop-On, Hop-Off Bus Tours: These popular tours provide a convenient way to explore the city's major sites. Visitors can board and disembark at various stops to see landmarks like the National Mall, Lincoln Memorial, and the U.S. Capitol.",
-                "Bike Tours: Bike tours are a fun and active way to see the city. Many tour operators offer guided bike tours, allowing you to pedal through the streets and visit notable sites.",
-                "Museum Tours: Many D.C. museums, including the Smithsonian museums, offer guided tours that provide a deeper understanding of their collections and the stories they tell.",
-                "Custom and Private Tours: These tours can be tailored to your interests, schedule, and group size. You can work with tour operators to create a personalized itinerary."
-            ],
-            "image":"img/homepage/tours.jpg"
-        }
     ],
     "packages":[
         {

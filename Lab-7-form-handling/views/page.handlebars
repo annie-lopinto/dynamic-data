@@ -1,7 +1,6 @@
 <h1>Form Handling</h1>
-<body class="primary-color-light-bg roboto">
-<div class="container-fluid primary-color-bg">  
 
+<div class="container-fluid primary-color-bg">  
     {{#if data.slideshow}}
     <div class="owl-slideshow owl-carousel owl-theme">
     {{#each data.slideshow}}
@@ -12,14 +11,7 @@
     </div>
     {{/if}}
 </div>
-<div class="container-lg white-bg">
- 
-    <!-- The only odd thing here is this expression -->
-    {{{body}}}
-    
 
-</div>
-<!-- jQuery should always be the first script -->
 <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
 <script src="/js/bootstrap.bundle.js"></script>
 <script src="/js/owl/owl.carousel.min.js"></script>
@@ -43,25 +35,5 @@ $(function(){
         }
     }
     });
-    //packages
-    $('.owl-packages').owlCarousel({
-    loop:true,
-    margin:10,
-    nav:true,
-    responsive:{
-        0:{
-            items:1
-        },
-        600:{
-            items:2
-        },
-        1000:{
-            items:3
-        }
-    }
-    });
-
-
 });
 </script>
-</body>
