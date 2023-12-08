@@ -1,0 +1,22 @@
+{
+    "categories":[
+    {
+        "name":"Featured"
+    }, 
+    {
+        "name":"Stationary",
+        "url":"stationary",
+        "image":"/images/cosmetics.png"
+    },    
+    {
+        "name":"Wellness",
+        "url":"wellness",
+        "image":"/images/electronics.png"
+    },
+    {
+        "name":"Decor",
+        "url":"decor",
+        "image":"/images/electronics.png"
+    }
+
+]}

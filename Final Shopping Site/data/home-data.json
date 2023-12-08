@@ -1,76 +1,49 @@
 {
-    "title":"The Paper Store",
-
+    "title":"Welcome to the nation's capital, Washington D.C.!",
+    "description":[
+        "Washington, D.C., the capital of the United States, is a city of immense historical, political, and cultural significance. Nestled along the eastern seaboard of the United States, it is a place where history is etched into the very fabric of the city. The city's layout was designed by Pierre Charles L'Enfant, featuring a grid pattern of wide avenues and numerous iconic landmarks. The city's most prominent feature is the National Mall, a sprawling, tree-lined expanse that is home to world-renowned museums, monuments, and memorials. The Capitol Building, where the U.S. Congress convenes, anchors one end, and the Washington Monument, a towering obelisk dedicated to George Washington, stands proudly at the other. Throughout the city, visitors encounter historic sites such as the White House, the official residence of the President, and the Lincoln Memorial, which honors the 16th President, Abraham Lincoln. Washington, D.C. is also a center of learning, hosting esteemed universities, research institutions, and the Library of Congress, the world's largest library. Beyond its political and historical significance, D.C. is a vibrant and diverse city with distinct neighborhoods, each offering its own unique charm and character. Georgetown, Dupont Circle, and Adams Morgan are popular areas for shopping, dining, and nightlife. The city's culinary scene reflects its diverse population, offering a range of international cuisines. Cultural institutions like the Smithsonian museums, the National Gallery of Art, and the Kennedy Center for the Performing Arts provide endless opportunities for artistic and intellectual exploration. D.C.'s annual events, including the National Cherry Blossom Festival and Fourth of July celebrations, draw visitors from around the world. Washington, D.C. is a city of power, history, and diplomacy, but it is also a city of vibrant communities, artistic expression, and diverse experiences. It encapsulates the essence of the United States, making it a compelling destination for travelers and a dynamic hub for those engaged in the country's political, cultural, and intellectual life."
+    ],
     "slideshow": [
         "/img/slides/slide-1.jpg",
         "/img/slides/slide-2.jpg",
         "/img/slides/slide-3.jpg"
-    ], 
-    "arrivals":[
-        {
-            "title":"City Tour",
-            "image":"/img/homepage/all-sights.jpg",
-            "text":"Discover Washington, D.C.'s iconic landmarks and rich history on our city tour. Explore the Lincoln Memorial, the White House, and more as you delve into the heart of the nation's capital. Join us for a captivating journey through D.C.'s heritage.",
-            "price":"500",
-            "duration":"4 Hours"
-        },
-        {
-            "title":"DC in a Weekend",
-            "image":"/img/homepage/weekend.jpg",
-            "text":"Elevate your weekends with our curated getaways. From cozy escapes to thrilling adventures, our weekend tours pack big experiences into your short break. Recharge and explore with us for unforgettable weekends.",
-            "price":"2300",
-            "duration":"3 Days"
-        },
-        {
-            "title":"DC at Night",
-            "image":"/img/homepage/dc-at-night.jpg",
-            "text":"Discover the allure of Washington, D.C. at night. Explore iconic landmarks bathed in the shimmering city lights, from the Lincoln Memorial to the Capitol Building. Join us for an unforgettable evening tour of the nation's capital.",
-            "price":"400",
-            "duration":"4 Hours"
-        },
-        {
-            "title":"Cherry Blossom Festival Tour Package",
-            "image":"/img/homepage/cherryblossom.jpg",
-            "text":"Timed to coincide with the annual National Cherry Blossom Festival in spring, this package includes visits to the Tidal Basin, where cherry blossoms are in full bloom. Enjoy the beauty of the blossoms while exploring nearby monuments and attractions.",
-            "price":"300",
-            "duration":"3 Hours"
-        },
-        {
-            "title":"Museum Lovers' Tour",
-            "image":"/img/homepage/museum.jpg",
-            "text":"Perfect for art and history enthusiasts, this package combines visits to the Smithsonian museums and the National Gallery of Art. Explore world-class collections, exhibits, and galleries, with expert guides providing context and information about the art and artifacts on display.",
-            "price":"800",
-            "duration":"6 Hours"
-        },
-        {
-            "title":"Cultural and Arts Tour Package",
-            "image":"/img/homepage/arts.jpg",
-            "text":" Delve into the cultural side of D.C. with visits to theaters, galleries, and performance venues. This package provides access to cultural events and artistic expressions in the city, allowing you to appreciate the vibrant arts scene.",
-            "price":"200",
-            "duration":"3 Hours"
-        }
     ],
-    "categories":[
+    "featured":[
         {
-            "title":"City Tour",
-            "image":"/img/homepage/all-sights.jpg",
-            "text":"Discover Washington, D.C.'s iconic landmarks and rich history on our city tour. Explore the Lincoln Memorial, the White House, and more as you delve into the heart of the nation's capital. Join us for a captivating journey through D.C.'s heritage.",
-            "price":"500",
-            "duration":"4 Hours"
+            "url": "37",
+            "title":"Colorful Holiday Card Set",
+            "image":"/img/featured/featured-1.jpeg",
+            "price":"24.00"
         },
         {
-            "title":"DC in a Weekend",
-            "image":"/img/homepage/weekend.jpg",
-            "text":"Elevate your weekends with our curated getaways. From cozy escapes to thrilling adventures, our weekend tours pack big experiences into your short break. Recharge and explore with us for unforgettable weekends.",
-            "price":"2300",
-            "duration":"3 Days"
+            "url": "38",
+            "title":"White Misteltoe Stocking",
+            "image":"/img/featured/featured-2.jpeg",
+            "price":"26.50"
         },
         {
-            "title":"DC at Night",
-            "image":"/img/homepage/dc-at-night.jpg",
-            "text":"Discover the allure of Washington, D.C. at night. Explore iconic landmarks bathed in the shimmering city lights, from the Lincoln Memorial to the Capitol Building. Join us for an unforgettable evening tour of the nation's capital.",
-            "price":"400",
-            "duration":"4 Hours"
+            "url": "39",
+            "title":"Nutcracker Ornament",
+            "image":"/img/featured/featured-3.jpeg",
+            "price":"18.50"
+        },
+        {
+            "url": "40",
+            "title":"Classic Santa Holiday Card Set",
+            "image":"/img/featured/featured-4.jpeg",
+            "price":"22.00"
+        },
+        {
+            "url": "41",
+            "title":"Christmas Tree Pillow",
+            "image":"/img/featured/featured-5.jpeg",
+            "price":"26.00"
+        },
+        {
+            "url": "42",
+            "title":"Christmas Dogs Tea Towels",
+            "image":"/img/featured/featured-6.jpeg",
+            "price":"25.50"
         }
     ]
 }

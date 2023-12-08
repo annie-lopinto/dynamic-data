@@ -3,16 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Washington D.C. Travel {{#if title}}{{title}}{{/if}} </title>
+    <title>Basic Form</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
     <link rel="stylesheet" href="/js/owl/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="/js/owl/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="/css/bootstrap.css">
     <link rel="stylesheet" href="/style.css">
 </head>
-<body class="primary-color-light-bg roboto">
-<div class="container-fluid primary-color-bg">  
-    {{>navbar}} 
-
+<body>
+<nav class="navbar navbar-expand-lg primary-color-bg">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/"> <img src="/img/logo.png" class="" alt=""> </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link secondary-color-light active" aria-current="page" href="/">Home</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link secondary-color-light" href="/category/stationary">Stationary</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link secondary-color-light" href="/category/wellness">Wellness</a>
+        </li> 
+        <li class="nav-item">
+          <a class="nav-link secondary-color-light" href="/category/decor">Decor</a>
+        </li>                       
+        <li class="nav-item">
+          <a class="nav-link secondary-color-light" href="#aboutus">About Us</a>
+        </li>  
+      </ul>
+      <a class="nav-link secondary-color-light" href="/cart/cartproducts">Shopping Cart</a>
+      <a class="nav-link secondary-color-light" href="/orders/list">My Orders</a>    
+  </div>
+</nav>
+ 
     {{#if data.slideshow}}
     <div class="owl-slideshow owl-carousel owl-theme">
     {{#each data.slideshow}}
@@ -22,15 +50,40 @@
     {{/each}}      
     </div>
     {{/if}}
-</div>
+
 <div class="container-lg white-bg">
  
     <!-- The only odd thing here is this expression -->
     {{{body}}}
-    
+
+<div class="section-divider" id="aboutus"></div>
+<hr>
+
+<h1>About Us</h1>
+<div class="about-us">
+<p>
+  Welcome to The Stationery Loft, a charming sanctuary for stationery enthusiasts, decor connoisseurs, and those in search of distinctive gifts. Nestled at the crossroads of creativity and sophistication, our boutique proudly curates an exceptional collection that celebrates the allure of fine stationery, captivating decor pieces, and thoughtful gifts.
+</p>
+<p>
+  At The Stationery Loft, we champion the art of the handwritten note, the elegance of exquisitely crafted stationery, and the enchantment found in carefully selected home decor items. Our mission is to offer a handpicked assortment of quality products that ignite inspiration, foster genuine connections, and infuse everyday life with a touch of grace.
+</p>
+<p>
+  From artisanal notebooks and premium writing instruments to captivating decor accents and delightful gifts, each piece in our collection is chosen with care to elevate your surroundings and kindle your imagination. Whether you seek the ideal journal to capture your thoughts or desire a distinctive gift for a cherished individual, our boutique is an oasis of hand-selected items that embody individuality and sophistication.
+</p>
+<p>
+  Beyond our meticulously curated offerings, The Stationery Loft is committed to providing a personalized shopping experience that surpasses expectations. Our attentive and knowledgeable team is dedicated to guiding and assisting you, ensuring that your visit is an engaging exploration of creativity and refinement.
+</p>
+<p>
+  Embark with us on a journey where every stroke of a pen, every carefully chosen decor piece, and every thoughtful gift reflects the essence of sophistication and allure. Explore the world of fine stationery, immerse yourself in captivating decor, and discover the perfect gift at The Stationery Loft.
+</p>
+<p>
+  Thank you for choosing The Stationery Loft—where creativity meets elegance.
+</p>
+</div>
+</div>
+<div class="footer">
 
 </div>
-<!-- jQuery should always be the first script -->
 <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
 <script src="/js/bootstrap.bundle.js"></script>
 <script src="/js/owl/owl.carousel.min.js"></script>

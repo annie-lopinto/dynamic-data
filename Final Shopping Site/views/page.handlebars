@@ -1,14 +1,55 @@
-<div class="section-divider" id="about"></div>
-<h1 class="primary-color-light roboto-medium">{{data.title}}</h1>
-<p>{{data.description}}</p>
+<h1>The Stationary Loft</h1>
+{{!-- <div class="grid-container">
 
-{{#if data.arrivals}}
-<div class="section-divider" id="packages"></div>
-<h2>New Arrivals</h2>
-<a href="{{this.url}}">
+<div class="grid-item">
+<a href="/product/{{this.id}}">
+<ul>
+    <li><strong>Name: </strong>  </li>
+    <li><strong>Description: </strong> </li>
+    <li><strong>Price: </strong> 
+   $
+    <br><img src=""><br> 
+
+    
+    <br>
+    
+     </li>
+</ul>
+</a>
+</div>
+
+<div class="grid-item">
+<a href="/product/{{this.id}}">
+<ul>
+    <li><strong>Name: </strong>  </li>
+    <li><strong>Description: </strong> </li>
+    <li><strong>Price: </strong> 
+   $
+    <br><img src=""><br> 
+
+    
+    <br>
+    
+     </li>
+</ul>
+</a>
+</div> --}}
+{{#if data.featured}}
+  <div class="section-divider" id="featured"></div>
+  <h2>Featured Products</h2>
+  <div class="owl-theme owl-carousel owl-packages">
+    {{#each data.featured}}
+      <!-- Package card structure -->
+    {{/each}}
+  </div>
+{{/if}}
+
+{{#if data.featured}}
+<div class="section-divider" id="featured"></div>
 <div class="owl-theme owl-carousel owl-packages">
-{{#each data.arrivals}}
+{{#each data.featured}} 
   <div class="card">
+  <a href="/product/{{this.url}}">
    {{#if this.image}} 
   <img src="{{this.image}}" class="card-img-top" alt="...">
   {{/if}}
@@ -18,45 +59,35 @@
   </div>
   <ul class="list-group list-group-flush">
     <li class="list-group-item">${{this.price}}</li>
+    <li class="list-group-item">{{this.duration}}</li>
   </ul>
+  </a>
 </div>
 {{/each}}
 </div>
-</a>
 {{/if}}
 
-{{#if data.categories}}
-<div class="section-divider" id="packages"></div>
-<h2>Products</h2>
-<a href="{{this.url}}">
-<div class="owl-theme owl-carousel owl-packages">
-{{#each data.categories}}
-  <div class="card">
-   {{#if this.image}} 
-  <img src="{{this.image}}" class="card-img-top" alt="...">
-  {{/if}}
-  <div class="card-body">
-    <h5 class="card-title">{{this.title}}</h5>
+<div class="category-container">
+
+  <div class="category-item">
+  <a href="/category/stationary" class="category-link">
+    <img src="/img/stationary/stationary-1.jpeg">
+    <p>Stationary</p>
+  </a>
   </div>
+
+  <div class="category-item">
+  <a href="/category/wellness" class="category-link">
+    <img src="/img/wellness/wellness-1.jpeg">
+    <p>Wellness</p>
+  </a>
+  </div>
+
+  <div class="category-item">
+  <a href="/category/decor" class="category-link">
+    <img src="/img/decor/decor-1.jpeg">
+    <p>Decor</p>
+  </a>
+  </div>
+
 </div>
-{{/each}}
-</div>
-</a>
-{{/if}}
-
-<section id="aboutus">
-<h2>About Us</h2>
-<p>
-  Lorem
-</p>
-</section>
-
-
-
-<footer class="footer-color-bg secondary-color-light">
-  <br>
-  <br>
-  Copyright 2023 - Annie LoPinto
-  <br>
-  <br>
-</footer>

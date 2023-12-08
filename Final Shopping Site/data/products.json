@@ -1,0 +1,424 @@
+{
+    "items":[
+        {
+            "id":1,
+            "category":"stationary",
+            "name":"Checkered Birthday Card",
+            "price":4.50,
+            "images":[
+                {"src":"/img/stationary/stationary-1.jpeg"}
+            ],
+            "description":"'Happy Birthday', blank inside"
+        },
+        {
+            "id":2,
+            "category":"stationary",
+            "name":"Party Animal Birthday Card",
+            "price":4.50,
+            "images":[
+                {"src":"/img/stationary/stationary-2.jpeg"}
+            ],
+            "description":"'Happy Birthday You Party Animal', blank inside"
+        },
+        {
+            "id":3,
+            "category":"stationary",
+            "name":"Floral Birthday Card",
+            "price":5.00,
+            "images":[
+                {"src":"/img/stationary/stationary-3.jpeg"}
+            ],
+            "description":"'Happy Birthday', blank inside"
+        },
+        {
+            "id":4,
+            "category":"stationary",
+            "name":"Better Together Anniversary Card",
+            "price":4.50,
+            "images":[
+                {"src":"/img/stationary/stationary-4.jpeg"}
+            ],
+            "description":"'We're better together, Happy Anniversary', blank inside"
+        },
+        {
+            "id":5,
+            "category":"Jar of Stars Anniversary Card",
+            "name":"Floral Birthday Card",
+            "price":5.00,
+            "images":[
+                {"src":"/img/stationary/stationary-5.jpeg"}
+            ],
+            "description":"'My Love', Inside: 'Happy Anniversary'"
+        },
+        {
+            "id":6,
+            "category":"stationary",
+            "name":"Colorful Congrats Card",
+            "price":5.50,
+            "images":[
+                {"src":"/img/stationary/stationary-6.jpeg"}
+            ],
+            "description":"'Congrats, Congrats, Congrats', blank inside"
+        },
+        {
+            "id":7,
+            "category":"stationary",
+            "name":"You Did It Card",
+            "price":5.50,
+            "images":[
+                {"src":"/img/stationary/stationary-7.jpeg"}
+            ],
+            "description":"'You did it!', Inside: 'Congratuations!'"
+        },
+        {
+            "id":8,
+            "category":"stationary",
+            "name":"Blank Sunflower Car",
+            "price":5.00,
+            "images":[
+                {"src":"/img/stationary/stationary-8.jpeg"}
+            ],
+            "description":"'Sunflower', blank inside"
+        },
+        {
+            "id":9,
+            "category":"stationary",
+            "name":"Cactus Housewarming Card",
+            "price":6.00,
+            "images":[
+                {"src":"/img/stationary/stationary-9.jpeg"}
+            ],
+            "description":"'Congrats on Your New Home', blank inside"
+        },
+        {
+            "id":10,
+            "category":"stationary",
+            "name":"Beary Thank You Card",
+            "price":5.00,
+            "images":[
+                {"src":"/img/stationary/stationary-10.jpeg"}
+            ],
+            "description":"'Thank you Beary Much', blank inside"
+        },
+        {
+            "id":11,
+            "category":"stationary",
+            "name":"Bottom of My Heart Thank You Card",
+            "price":4.50,
+            "images":[
+                {"src":"/img/stationary/stationary-11.jpeg"}
+            ],
+            "description":"'From the Bottom of My - Thank You', blank inside"
+        }, 
+        {
+            "id":12,
+            "category":"stationary",
+            "name":"Hugs Miss You Card",
+            "price":7.50,
+            "images":[
+                {"src":"/img/stationary/stationary-12.jpeg"}
+            ],
+            "description":"'I miss your hugs the most', blank inside"
+        },
+        {
+            "id":13,
+            "category":"decor",
+            "name":"City Tea Towels",
+            "price":18.50,
+            "images":[
+                {"src":"/img/decor/decor-1.jpeg"}
+            ],
+            "description":"Bundle of 3 tea towels"
+        },
+        {
+            "id":14,
+            "category":"decor",
+            "name":"Wildflowers Vase",
+            "price":26.00,
+            "images":[
+                {"src":"/img/decor/decor-2.jpeg"}
+            ],
+            "description":"Ceramic Floral Vase"
+        },
+        {
+            "id":15,
+            "category":"decor",
+            "name":"Checkered Blanket",
+            "price":31.50,
+            "images":[
+                {"src":"/img/decor/decor-3.jpeg"}
+            ],
+            "description":"Grey and white fluffy blanket"
+        },
+        {
+            "id":16,
+            "category":"decor",
+            "name":"Butterfly Trinket Dish",
+            "price":14.50,
+            "images":[
+                {"src":"/img/decor/decor-4.jpeg"}
+            ],
+            "description":"Ceramic 5in Butterfly Dish"
+        },
+        {
+            "id":17,
+            "category":"decor",
+            "name":"Floral Vase",
+            "price":22.50,
+            "images":[
+                {"src":"/img/decor/decor-5.jpeg"}
+            ],
+            "description":"Ceramic Floral Vase"
+        },
+        {
+            "id":18,
+            "category":"decor",
+            "name":"Striped Frame",
+            "price":18.00,
+            "images":[
+                {"src":"/img/decor/decor-6.jpeg"}
+            ],
+            "description":"Glass Rainbow Frame"
+        },
+        {
+            "id":19,
+            "category":"decor",
+            "name":"Sunflower Print",
+            "price":14.50,
+            "images":[
+                {"src":"/img/decor/decor-7.jpeg"}
+            ],
+            "description":"Cavallini Sunflower Art Print"
+        },
+        {
+            "id":20,
+            "category":"decor",
+            "name":"Strawberry Fields Tea Towel",
+            "price":11.50,
+            "images":[
+                {"src":"/img/decor/decor-8.jpeg"}
+            ],
+            "description":"Single Cotton Tea Towel"
+        },
+        {
+            "id":21,
+            "category":"decor",
+            "name":"Colored Wine Glasses",
+            "price":10.00,
+            "images":[
+                {"src":"/img/decor/decor-9.jpeg"}
+            ],
+            "description":"Set of 2 Glass Wine Glasses"
+        },
+        {
+            "id":22,
+            "category":"decor",
+            "name":"City Tea Towels",
+            "price":4.50,
+            "images":[
+                {"src":"/img/decor/decor-10.jpeg"}
+            ],
+            "description":"Bundle of 3 tea towels"
+        },
+        {
+            "id":23,
+            "category":"decor",
+            "name":"Striped Planter",
+            "price":16.00,
+            "images":[
+                {"src":"/img/decor/decor-11.jpeg"}
+            ],
+            "description":"Ceramic Rainbow Striped Planter"
+        },
+        {
+            "id":24,
+            "category":"decor",
+            "name":"Aqua Candle",
+            "price":18.00,
+            "images":[
+                {"src":"/img/decor/decor-12.jpeg"}
+            ],
+            "description":"Glass Aqua Candle, Scent: saltwater and vanilla"
+        },
+        {
+            "id":25,
+            "category":"wellness",
+            "name":"Shower Steamer Set",
+            "price":24.00,
+            "images":[
+                {"src":"/img/wellness/wellness-1.jpeg"}
+            ],
+            "description":"Set of 3 Shower Steamers (Love Potion, Destress, Mood Boost)"
+        },
+        {
+            "id":26,
+            "category":"wellness",
+            "name":"Patchology Eye Patches",
+            "price":18.00,
+            "images":[
+                {"src":"/img/wellness/wellness-2.jpeg"}
+            ],
+            "description":"Set of 3 Firming Eye Gels"
+        },
+        {
+            "id":27,
+            "category":"wellness",
+            "name":"Essential Oil Bundle",
+            "price":26.00,
+            "images":[
+                {"src":"/img/wellness/wellness-3.jpeg"}
+            ],
+            "description":"Essential Oil Set (Take it Easy, Be Well, Mood Boost)"
+        },
+        {
+            "id":28,
+            "category":"wellness",
+            "name":"Cooling Eye Stones",
+            "price":16.00,
+            "images":[
+                {"src":"/img/wellness/wellness-4.jpeg"}
+            ],
+            "description":"Quartz Cooling Eye Stones"
+        },
+        {
+            "id":29,
+            "category":"wellness",
+            "name":"Mini Manicure Kit",
+            "price":18.00,
+            "images":[
+                {"src":"/img/wellness/wellness-5.jpeg"}
+            ],
+            "description":"Dreamy Mini Manicure Kit"
+        },
+        {
+            "id":30,
+            "category":"wellness",
+            "name":"Desk Yoga Card Deck",
+            "price":18.00,
+            "images":[
+                {"src":"/img/wellness/wellness-6.jpeg"}
+            ],
+            "description":"45 Card Desk Yoga Deck"
+        },
+        {
+            "id":31,
+            "category":"wellness",
+            "name":"Satin Pillowcase Set",
+            "price":26.00,
+            "images":[
+                {"src":"/img/wellness/wellness-7.jpeg"}
+            ],
+            "description":"Set of 2 Blush Pink Satin Pillowcases"
+        },
+        {
+            "id":32,
+            "category":"wellness",
+            "name":"Wind Down Kit",
+            "price":18.00,
+            "images":[
+                {"src":"/img/wellness/wellness-8.jpeg"}
+            ],
+            "description":"Pinch Wind Down Kit with 8 essentials to help you relax and unwind"
+        },
+        {
+            "id":33,
+            "category":"wellness",
+            "name":"Anti-Anxiety Journal",
+            "price":24.00,
+            "images":[
+                {"src":"/img/wellness/wellness-9.jpeg"}
+            ],
+            "description":"120 page Anti-Anxiety Prompted Journal"
+        },
+        {
+            "id":34,
+            "category":"wellness",
+            "name":"Towel Scrunchie Bundle",
+            "price":16.00,
+            "images":[
+                {"src":"/img/wellness/wellness-10.jpeg"}
+            ],
+            "description":"Leapard Print Towel Scrunchie Set of 2"
+        },
+        {
+            "id":35,
+            "category":"wellness",
+            "name":"Cucumber Eye Gels",
+            "price":18.00,
+            "images":[
+                {"src":"/img/wellness/wellness-11.jpeg"}
+            ],
+            "description":"Cucumber Scented Eye Cooling Gels"
+        },
+        {
+            "id":36,
+            "category":"wellness",
+            "name":"Heatless Curling Set",
+            "price":22.00,
+            "images":[
+                {"src":"/img/wellness/wellness-12.jpeg"}
+            ],
+            "description":"The Satin Heatless Curling Set for (healthier/stronger) Hair"
+        },
+        {
+            "id":37,
+            "category":"featured",
+            "name":"Colorful Holiday Card Set",
+            "price":24.00,
+            "images":[
+                {"src":"/img/featured/featured-1.jpeg"}
+            ],
+            "description":"'Happy Holidays and a Joyful New Year', Set of 10"
+        },
+        {
+            "id":38,
+            "category":"featured",
+            "name":"White Mistletoe Stocking",
+            "price":26.50,
+            "images":[
+                {"src":"/img/featured/featured-2.jpeg"}
+            ],
+            "description":"White Stocking with Mistletoe Print"
+        },
+        {
+            "id":39,
+            "category":"featured",
+            "name":"Nutcracker Ornament",
+            "price":18.50,
+            "images":[
+                {"src":"/img/featured/featured-3.jpeg"}
+            ],
+            "description":"'Rifle Paper CO. Glass Nuutcracker Ornament'"
+        },
+        {
+            "id":40,
+            "category":"featured",
+            "name":"Classic Santa Holiday Card Set",
+            "price":22.00,
+            "images":[
+                {"src":"/img/featured/featured-4.jpeg"}
+            ],
+            "description":"Santa Holiday Card Set of 10"
+        },
+        {
+            "id":41,
+            "category":"featured",
+            "name":"Christmas Tree Pillow",
+            "price":26.00,
+            "images":[
+                {"src":"/img/featured/featured-5.jpeg"}
+            ],
+            "description":"Christmas Tree with Lights Pillow"
+        },
+        {
+            "id":42,
+            "category":"featured",
+            "name":"Christmas Dogs Tea Towel",
+            "price":25.50,
+            "images":[
+                {"src":"/img/featured/featured-6.jpeg"}
+            ],
+            "description":"Christmas Dogs Tea Towels Set of 2"
+        }
+    ]
+}

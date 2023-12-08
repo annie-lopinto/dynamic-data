@@ -1,0 +1,19 @@
+{{#each users}}
+<ul>
+    <li><strong>Name: </strong> {{this.firstname}} {{this.lastname}}</li>
+    <li><strong>Email: </strong> {{this.email}}</li>
+    <li><strong>Address: </strong> 
+    {{this.address}}<br>
+    {{this.city}}, {{this.state}}<br>
+    {{this.zip}}
+    {{this.products}}
+    {{#each this.images}} 
+    <img src="{{this.src}}" alt="">
+    {{/each}}
+     </li>
+    <li><strong>Product ID's</strong> 
+    <p>{{this.item}}</p>
+    </li>
+</ul>
+{{/each}}
+

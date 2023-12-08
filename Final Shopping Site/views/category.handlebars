@@ -1,0 +1,24 @@
+{{#each category}}
+<h1 class="category-title">{{this.name}}</h1>
+{{/each}}
+<hr>
+<div class="grid-container">
+{{#each products}}
+<div class="grid-item">
+<a href="/product/{{this.id}}" class="product-link">
+<ul>
+    <li class="product-name"><h4>{{this.name}}<h4> </li>
+    <br> 
+    {{#each this.images}}
+        <li><img src="{{this.src}}" alt="Product Image"></li>
+    {{/each}}
+    <br>
+    <li class ="price">${{this.price}}</li>
+</ul>
+</a>
+</div>
+{{/each}}
+</div>
+
+
+

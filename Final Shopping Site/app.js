@@ -5,10 +5,12 @@ const expressHandlebars = require('express-handlebars')
 
 const app = express()
 
-const handler = require('./lib/handler')
+const bodyParser = require('body-parser')
 
-//Static files or folders are specified before any route
+app.use(bodyParser.urlencoded({ extended: true}))
 app.use(express.static(__dirname + '/public'))
+
+const handler = require('./lib/handler')
 
 //configure our express app to use handlebars
 app.engine('handlebars', expressHandlebars.engine({
@@ -19,55 +21,53 @@ app.set('view engine','handlebars')
 //ends handlebar configuration
 
 const port = process.env.port || 3000
-//require gallery outside the view because we will use the same in all get requests
+
+const emails = []
+const cart =[]
 const gallery = require('./data/gallery.json')
-//Routes go before 404 and 500
+
 app.get('/',(req,res)=>{
+    var data = require('./data/gallery.json')
     var data = require('./data/home-data.json')
     res.render('page',{ data, gallery })
+    //Since you are passing multiple data objects
+    //you need to pass them with keys
+    //res.render('page',{ "data":data,"gallery": gallery })
 })
 
-app.get('/stationary',(req,res)=>{
-    var data = require('./data/stationary-data.json')
-    res.render('page',{ data,gallery })
+app.get('/mad',(req,res)=>{
+    const data = require('./data/mad-data.json')
+    res.render('madform',{data})
 })
-
-app.get('/wellness',(req,res)=>{
-    var data = require('./data/wellness-data.json')
-    res.render('page',{ data,gallery })
+app.get('/madprocess',(req,res)=>{
+   res.render('madprocess',{req}) 
 })
+//newsletter section
+//https://elements.envato.com/web-templates/shopping+html
 
-app.get('/decor',(req,res)=>{
-    var data = require('./data/decor-data.json')
-    res.render('page',{ data,gallery })
-})
+app.get('/newsletter-signup', handler.newsletterSignup)
+
+app.post('/newsletter-signup/process', handler.newsletterSignupProcess)
+
+app.get('/orders/list', handler.newsletterSignupList)
+
+app.get('/newsletter/details/:email',handler.newsletterUser)
+
+app.get('/product/:id',handler.showProduct)
+
+app.get('/category/:category',handler.showCategory)
+
+app.get('/cart/cartproducts', handler.addToCartProcess)
+
+app.post('/cart', handler.addToCartProcess)
 
 
-app.get('/shoppingcart', handler.shoppingCart)
 
-//app.get('/newsletter-signup', handler.newsletterSignup)
-app.get('/checkout', handler.checkOut)
-
-//app.get('/newsletter/list', handler.newsletterSignupList)
-app.get('/orderlist', handler.orderList)
-
-//app.get('/newsletter/details/:email',handler.newsletterUser)
-app.get('/order/details/:email',handler.orderDetails)
-
-//app.get('/newsletter/delete/:email',handler.newsletterUserDelete)
-app.get('/order/delete/:email',handler.orderDelete)
-
-//app.post('/newsletter-signup/process', handler.newsletterSignupProcess)
-app.post('/checkout/process', handler.checkoutProcess)
-
+app.get('/newsletter/delete/:email',handler.newsletterUserDelete)
 
 app.get('/order/thankyou',(req,res) =>{
     res.render('thankyou')
 })
-
-//This generates an error because the parameter names don't match
-
-
 //Error handling ->  app.use() basic express route 
 app.use((req,res) => {
     res.status(404)

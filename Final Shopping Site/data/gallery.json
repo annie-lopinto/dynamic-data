@@ -1,68 +1,7 @@
 {
-    "images":[
-        {
-        "url":"/img/gallery/gallery_1.jpg",
-        "title": "Washington D.C."
-        },
-        {
-        "url":"/img/gallery/gallery_2.jpg",
-        "title": "The Supreme Court"
-        },
-        {
-        "url":"/img/gallery/gallery_3.jpg",
-        "title": "The Streets of D.C."
-        },
-        {
-        "url":"/img/gallery/gallery_4.jpg",
-        "title": "The Smithsonian"
-        },
-        {
-        "url":"/img/gallery/gallery_5.jpg",
-        "title": "The Streets of D.C."
-        },
-        {
-        "url":"/img/gallery/gallery_6.jpg",
-        "title": "The Martin Luther King Memorial"
-        },
-        {
-        "url":"/img/gallery/gallery_7.jpg",
-        "title": "Soldier Statues"
-        },
-        {
-        "url":"/img/gallery/gallery_8.jpg",
-        "title": "The Liberty Bell"
-        },
-        {
-        "url":"/img/gallery/gallery_9.jpg",
-        "title": "The Lake"
-        },
-        {
-        "url":"/img/gallery/gallery_10.jpg",
-        "title": "The Capitol Building"
-        },
-        {
-        "url":"/img/gallery/gallery_11.jpg",
-        "title": "The Capitol Building"
-        },
-        {
-        "url":"/img/gallery/gallery_12.jpg",
-        "title": "Statue"
-        },
-        {
-        "url":"/img/gallery/gallery_13.jpg",
-        "title": "Inside"
-        },
-        {
-        "url":"/img/gallery/gallery_14.jpg",
-        "title": "The Lincoln Memorial"
-        },
-        {
-        "url":"/img/gallery/gallery_15.jpg",
-        "title": "The Capitol Building"
-        },
-        {
-        "url":"/img/gallery/gallery_16.jpg",
-        "title": "The White House"
-        }          
+    "slideshow": [
+        "/img/slides/slide-1.jpg",
+        "/img/slides/slide-2.jpg",
+        "/img/slides/slide-3.jpg"
     ]
 }
